@@ -1,0 +1,215 @@
+body {
+    background-color: #f6f6f6;
+}
+
+.scroll {
+    border: none;
+}
+
+.carousel-inner.style {
+    margin-top: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: stretch;
+    width: 100%;
+    max-height: 800px;
+}
+
+#btn-orcamento {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+
+#btn-orcamento:hover {
+    background-color: #777676;
+}
+
+.nav-link:hover {
+    background-color: #f5a153;
+}
+
+#instagram {
+    position: fixed;
+    left: 5px;
+    top: 50%;
+    background-color: #f6f6f6;
+    margin: 0;
+}
+
+#instagram img {
+    width: 40px;
+}
+
+#empresa-container .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0px;
+}
+
+.images {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+}
+
+.images img{
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+
+.images img:hover{
+    opacity: 0.5;
+}
+
+.empresa {
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+.empresa.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#orcamento {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 150px;
+    background-image: url('../img/orcamento.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+}
+
+#orcamento::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    background-color: rgba(0, 0, 0, 0.678);
+}
+
+#orcamento .container {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.orcamento-body .container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#btn-whats {
+    margin-top: 20px;
+}
+
+#btn-whats img {
+    width: 34px;
+}
+
+#btn-whats:hover {
+    background-color: #0e9b71;
+    color: #f6f6f6;
+}
+
+.maprouter {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    background-color: #dddddd;
+}
+
+.mapouter {
+    text-align: center;
+    height: 280px;
+    width: 100%;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 280px;
+    width: 100%;
+}
+
+#contato {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#contato-label {
+    font-weight: bold;
+}
+
+#contato .container {
+    width: 50%;
+}
+
+.rodape {
+    margin-top: 40px;
+    height: 150px;
+    width: 100%;
+    background-color: #777676;
+    text-align: center;
+}
+
+.rodape .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.rodape img {
+    margin-top: 20px;
+    width: 50px;
+}
+
+#rodape-logo-label {
+    margin-top: 20px;
+    color: #f6f6f6;
+}
+
+.direitos {
+    position: relative;
+    color: #f6f6f6;
+    margin-top: 30px;
+}
+
+#desenvolvedor {
+    color: #f6f6f6;
+    text-decoration: none;
+}
+
+#desenvolvedor:hover {
+    color: #f5a153;
+}
+
+@media (max-width: 650px) {
+
+    #navbar {
+        width: 100%;
+    }
+
+    #contato .container {
+        width: 100%;
+    }
+
+}
